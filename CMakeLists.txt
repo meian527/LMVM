@@ -19,6 +19,7 @@ else()
     endif()
 endif()
 
+include_directories(include)
 add_executable(lmvm 
         vm/main.cpp
         vm/vm.cpp

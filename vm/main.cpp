@@ -1,7 +1,7 @@
-#include "include/version.h"
-#include "vm/error/error.h"
-#include "vm/op/Loader.h"
-#include "vm/vm.h"
+#include "version.h"
+#include "error/error.h"
+#include "op/Loader.h"
+#include "vm.h"
 
 #include <chrono>
 #include <iostream>
