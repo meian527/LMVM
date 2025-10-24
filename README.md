@@ -7,7 +7,8 @@
   mkdir out
   cd out
   cmake ..
-  .\lmvm.exe
+  .\lmlc.exe ../test/hello.lmi hello.lmc
+  .\lmvm.exe ./hello.lmc
   ```
 - [架构设计]<br>
   采用了类Intel X86指令集<br>
@@ -24,6 +25,7 @@
 - ✅ **可扩展**：模块化指令集架构
 
 ---
+
 
 
 
